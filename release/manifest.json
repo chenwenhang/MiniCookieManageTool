@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "CookieManager",
+    "description": "自用cookie管理工具",
+    "version": "1.0",
+    "permissions": [
+        "cookies",
+        "*://*/"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background":
+    {
+        "scripts": [
+            "js/background.js"
+        ]
+    }
+}
